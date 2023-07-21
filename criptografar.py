@@ -6,7 +6,7 @@ import pickle
 
 comando_cripto = ["-c", "/c" , "criptografar", "cripto", "encode" , "-e", "/e"]
 comando_descript = ["-d", "/d", "descriptografar", "descript", "decode"]
-comando_sair = ["sair", "exit", "\s", "-s", "bye"]
+comando_sair = ["sair", "exit", "/s", "-s", "bye"]
 
 def tratar(bruto):
     tratado = ""
